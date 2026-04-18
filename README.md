@@ -5,6 +5,8 @@ It allows users to securely create, manage, search, and organize personal notes 
 
 This project was developed as a faculty project submission and focuses on practical mobile development concepts such as authentication, CRUD operations, secure cloud integration, and polished user experience.
 
+
+The application is designed with a scalable and clean architecture, following best practices for environment management, component structure, and secure data handling.
 ---
 
 ## 🚀 Project Overview
@@ -25,19 +27,14 @@ The app uses Supabase for authentication and database storage, while Expo and Re
 
 ## ✨ Features
 
-* User registration and login
-* Secure Supabase authentication
-* Forgot password flow
-* Reset password flow
-* Create new notes
-* Edit existing notes
-* Delete notes
-* Manual tags support
-* Smart tag suggestions based on note content
-* Search notes by title/content
-* Filter notes by tags
-* Clean modern mobile-first UI
-* Cross-platform support with Expo
+- 🔐 User authentication (Register / Login / Reset Password)
+- 📝 Create, edit, and delete personal notes
+- 🔍 Real-time search by title and content
+- 🏷️ Tag-based organization and filtering
+- 🧠 Smart tag suggestions based on note content
+- ☁️ Secure cloud sync with Supabase
+- ⚡ Fast and responsive mobile-first UI
+- 📱 Cross-platform support (Android, iOS, Web)
 
 ---
 
@@ -129,26 +126,25 @@ Use `.env.example` as a reference.
 
 ## 📌 Status
 
-🚧 In development — built as a faculty project with production-level structure.
+✅ Completed — Faculty Project (Production-ready structure)
 
 ---
 
 ## 👨‍💻 Author
 
-Developed by **Your Name**
+Developed by **Muhamet Rexhepi**
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots
 
-You can add screenshots of your app here to showcase UI:
+![App Screenshot](./assets/images/notes.png)
+![App Screenshot](./assets/images/login.png)
+![App Screenshot](./assets/images/newaccount.png)
 
-```md
-![App Screenshot](./assets/images/screenshot.png)
-```
 
 ---
 
 ## 📄 License
 
-This project is for educational purposes.
+This project was developed for educational purposes as part of a faculty submission.
